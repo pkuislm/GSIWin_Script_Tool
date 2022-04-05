@@ -1,10 +1,16 @@
 ### GSIWin Script Tool
 
-This tool can:
+这个工具的功能：
++ 导出全部文本（附带文本的偏移地址）
++ 导出用于进行翻译工作的文本（双行）
++ 回封上一条功能所导出的文本
++ 反汇编脚本
++ 以json格式拆分opcodes
 
-+ Export strings from script.
-+ Import strings and rebuild script.
+### Attention
+添加的新功能（尤其是反汇编以及导出文本）可能存在大量bug。请格外注意（
+关于Ruby文本：
+请遵照“{需要注释的文本:注释文本}”的格式（其中冒号为英文符号）
+ruby在单行内理论上没有限制，但每一页文本不能超过三行。
 
-### Staff
-
-I would be very grateful if you can add me to the staff list of translation project.
+此外，如果对代码有任何意见，欢迎提pr
